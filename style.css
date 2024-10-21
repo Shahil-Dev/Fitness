@@ -15,7 +15,7 @@ body{
 .nav{
     justify-content: space-between;
     align-items: center;
-    margin: 30px 70px;
+    padding: 30px 70px;
 }
 .nav-item{
     list-style: none;   
@@ -40,6 +40,9 @@ body{
     border-radius: 40px;  
     padding-right: 10px;
 }
+.head{
+    background: linear-gradient(180.00deg,rgba(17, 17, 17, 0.747),rgba(119, 119, 119, 0.326) 100%);
+}
 #nav-id{
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -52,10 +55,101 @@ body{
     background: rgb(230, 83, 60);
     width: auto;
     padding: 10px;
-    
+}
+.get{
+    color: rgb(255, 255, 255);
+    font-size: 4.3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.huge{
+               
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 30px;
+}
+.btn1{
+    border-radius: 42px;
+    padding: 15px 47px;
+    background: rgb(230, 83, 60);
+    font-family: "Merriweather", serif;
+}
+.btn1:hover{
+    background:#0E0E0E;
+    border-radius: 42px;
+    color: white;
+}
+.btn2{
+    border-radius: 42px;
+    padding: 15px 47px;
+    background:#0E0E0E;
+    font-family: "Merriweather", serif;
+    color: white;
+}
+.btn2:hover{
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
+    color: white;
+}
+.btn-sec{
+    margin-top: 30px;
+    gap: 30px;
 }
 .menu{
     display: none;
+}
+.faltu{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    width: 168px;
+    height: 60px;
+    text-align: center;
+    margin-bottom:-160px;
+    margin-left:205px;
+}
+.faltu2{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 168px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin-top:-160px;
+    margin-left: -100px;
+}
+.lomba{
+     font-size: 24px;
+}
+.vdo{
+    font-size: 16px;
+}
+.gol{
+    background: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.img1{
+    width: 350px;
+   
+}
+.banner{
+   padding: 30px 70px;
+   justify-content: space-between;
+   height: 483px;
 }
 
 /*Responsive media query*/
@@ -75,4 +169,29 @@ body{
     .nav-ul{
         display: none;
     }
+    .banner{
+        display: block;
+        height: 1145px;
+        padding: 0px;
+        width: 100%;
+    }
+    .get{
+        text-align: center;
+    }
+    .huge{
+        text-align: center;
+    }
+    .btn-sec{
+        margin: 10px;
+        gap: 15px;
+    }
+ .free{
+    margin-top: 100px;
+ }
+ .img1{
+    margin-left: 30px;
+ }
+ .faltu2{
+    margin-left: 80px;
+ }
 }
